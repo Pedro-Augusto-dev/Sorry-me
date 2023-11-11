@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#conteudo {
+    background: linear-gradient(to right, rgb(241, 154, 154), rgb(255, 85, 85));
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.main {
+    position: relative;
+    left: 650px;
+    top: 200px;
+    background: rgb(242, 94, 94);
+    min-height: 50vh;
+    max-width: 600px;
+    border-radius: 20px;
+    border: 5px solid rgba(255, 0, 0, 0.168);
+    box-shadow: 20px 20px rgb(0, 0, 0, 0.55);
+}
+
+.main h1 {
+
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    top: 50px;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.main h2 {
+
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 0 30px;
+    border-radius: 30px;
+
+
+}
+
+.btns {
+    background: rgb(0, 136, 255);
+    color: white;
+    border: 3px solid rgba(0, 217, 255, 0.438);
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+
+}
+
+.btns:hover {
+    border: 3px solid rgb(0, 136, 255);
+    color: rgb(0, 53, 99);
+    background-color: rgb(0, 136, 255);
+    transition: 2s;
+    transform: translateY(-5px);
+}
+
+.btnn {
+    background: rgb(255, 0, 0);
+    color: white;
+    border: 3px solid rgba(0, 47, 255, 0.168);
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.btnPos {
+    padding: 80px;
+}
